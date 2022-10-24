@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário TI360</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <nav>
+        <h1>TI360 | Cadastre-se para receber novas informações</h1>
+    </nav>
+    <div class="container">
+
+        <form method="post" class="formulario-cadastro" action="https://localhost:8080/">
+            <div>
+                <label for="nome">Nome:</label>
+                <input id="nome" name="nome" required="required" placeholder="Seu nome:" type="text" />
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" required="required" placeholder="Seu melhor e-mail" />
+            </div>
+
+            <div>
+                <label for="celular">Celular:</label>
+                <input type="tel" name="celular" id="celular" placeholder="(11) 99999-9999">
+            </div>
+
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" placeholder="Sua mensagem" rows="10"></textarea>
+            </div>
+
+            <div>
+                <label for="conheceu">Como nos conheceu?</label>
+
+                <select id="conheceu" name="conheceu">
+                    <option value="">Selecione o item abaixo</option>
+                    <option value="internet"> Internet </option>
+                    <option value="instagram"> Intagram </option>
+                    <option value="google"> Google </option>
+                    <option value="indicacao"> Indicacao </option>
+                </select>
+            </div>
+
+
+
+            <div>
+                <label for="lugar">De onde você é?</label>
+
+                <select id="lugar" name="lugar">
+                    <option value="">Selecione o item abaixo</option>
+                    <option value="norte"> norte </option>
+                    <option value="nordeste"> nordeste </option>
+                    <option value="centro-oeste"> centro-oeste </option>
+                    <option value="sul"> sul </option>
+                    <option value="sudeste"> sudeste </option>
+                </select>
+            </div>
+
+    </div>
+
+
+
+    <button type="submit">Enviar dados</button>
+
+    </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #68a357;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #32965d;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+}
+
+nav h1 {
+  text-transform: none;
+}
+
+.container {
+  margin: 0 auto;
+  margin: 20px;
+  padding: 20px;
+}
+
+.container h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.formulario-cadastro {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.formulario-cadastro label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.formulario-cadastro input,
+.formulario-cadastro select,
+.formulario-cadastro textarea {
+  display: inline-block;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  width: 100%;
+  border: 0;
+  line-height: 48px;
+  height: 48px;
+  padding: 8px;
+  font-size: 18px;
+}
+
+.formulario-cadastro textarea {
+  height: 100px;
+}
+
+.formulario-cadastro button {
+  line-height: 48px;
+  width: 100%;
+  display: inline-block;
+  background: #32965d;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
